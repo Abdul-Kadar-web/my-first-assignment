@@ -14,7 +14,12 @@ h3{
     font-size: 25px;
     font-weight: 200;
     text-align: center;
-
+}
+h4{
+    font-size: 25px;
+}
+h6{
+    font-size: 20px;
 }
 p{
     text-align: left;
@@ -29,6 +34,15 @@ p{
 }
 .half-width img{
      width: 100%;
+}
+.small-half-width img{
+    width: 2.5%;
+    float:left;
+    left: 43%;
+    position: relative;
+    margin: 1%;
+    
+    
 }
 .img-with-text{
     text-align: justify;
@@ -114,8 +128,18 @@ section{
     border-radius: 15px;
     height: 90%;
 }
+.final-work p{
+    text-align: center;
+}
+.final-work h4{
+    text-align: center;
+}
 #my-design{
     border-left: 10px solid;
     border-image: linear-gradient(180deg, red, orangered);
     border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
 }
