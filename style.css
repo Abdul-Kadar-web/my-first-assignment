@@ -6,6 +6,19 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+h3{
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+
+}
+p{
+    text-align: left;
+}
 
 .half-width{
     width: 40%;
@@ -17,11 +30,47 @@ h1{
 .half-width img{
      width: 100%;
 }
+.img-with-text{
+    text-align: justify;
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+}
+.img-with-text img{
+    display: block;
+    width: 100%;
+    
+    
+}
+
 .frist-banner{
     background-image: url("image/background\ image-B-1.jpg");
     background-repeat: no-repeat;
     
 
+}
+.background-image{
+    background-image: url("image/Group_33094_1.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 700px 200px;
+    height: 40%;
+   
+}
+.img-text{
+    color: whitesmoke;
+    font-size: 200%;
+    position: relative;
+    left: 30%;
+    top: 45%;
+    font-size: 250%;
+
+}
+.background-link{
+    float: right;
+    margin-inline: 30%;
 }
 section{
     height: 500px;
@@ -29,6 +78,12 @@ section{
 }
 .name-color{
     color: orangered;
+}
+.color-name{
+    color: crimson;
+}
+.line-color{
+    color: red;
 }
 
 .link-button{
@@ -42,7 +97,22 @@ section{
 .shadow{
     box-shadow: 10px 20px 40px lightpink;
     border-radius: 10px;
-    height: 50%;
+    height: 80%;
+}
+.shadow-img-one{
+    box-shadow: 10px 20px 40px dimgray;
+    border-radius: 15px;
+    height: 90%;
+}
+.shadow-img-two{
+    box-shadow: 10px 20px 40px dimgray;
+    border-radius: 15px;
+    height: 90%;
+}
+.shadow-img-three{
+    box-shadow: 10px 20px 40px dimgray;
+    border-radius: 15px;
+    height: 90%;
 }
 #my-design{
     border-left: 10px solid;
