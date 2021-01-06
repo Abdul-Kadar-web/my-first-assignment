@@ -83,8 +83,9 @@ p{
 
 }
 .background-link{
-    float: right;
-    margin-inline: 30%;
+    position: relative;
+    left: 60%;
+    top: 20%;
 }
 section{
     height: 500px;
